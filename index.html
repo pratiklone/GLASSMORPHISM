@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >Glassmorphism Login</title>
+  <style>
+    body {
+      background-image: url("https://img.freepik.com/free-photo/wet-monstera-deliciosa-plant-leaves-garden_53876-139814.jpg?t=st=1741147998~exp=1741151598~hmac=8a869c879d5c79e33493c98cf205ea1c65f0450569d0d2bb8b411e6e628c4374&w=1060");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .ing {
+      height: 100px;
+      width: 100px;
+      margin: 10px 0 0 10px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 50px;
+    }
+
+    .list-decor {
+      display: flex;
+      list-style: none;
+      gap: 50px;
+      color: rgb(39, 37, 37);
+      font-size: smaller;
+      border-radius: 20px;
+      backdrop-filter: blur(2px);
+      background-color: transparent;
+      border: 0.5px solid white;
+    }
+
+    li {
+      background-color: rgb(58, 214, 201);
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+    li:hover {
+      background-color: rgb(202, 202, 231);
+      padding: 10px 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .container1, .container2 {
+      background-color: transparent;
+      backdrop-filter: blur(5px);
+      border-radius: 20px;
+      border: 0.5px solid white;
+      padding: 20px;
+    }
+
+    .container1 {
+      width: 650px;
+      text-align: center;
+      color: aliceblue;
+    }
+
+    .container2 {
+      width: 550px;
+      text-align: center;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    button {
+      padding: 10px 25px;
+      border-radius: 20px;
+      background-color: rgb(113, 177, 233);
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: rgb(235, 234, 224);
+    }
+
+    .dots {
+      margin-top: 23px;
+      text-align: center;
+    }
+
+    .dots img {
+      height: 30px;
+      margin: 0 5px;
+    }
+
+    .logs input {
+      background-color: transparent;
+      backdrop-filter: blur(10px);
+      border: 0.5px solid white;
+      padding: 10px 35px;
+      border-radius: 20px;
+      width: 90%;
+      margin: 10px 0;
+    }
+
+    .logs button {
+      padding: 10px 45px;
+    }
+
+    .caption {
+      margin-top: 20px;
+      color: rgb(41, 182, 218);
+      font-size: 14px;
+      text-align: center;
+    }
+    h1{
+        color: aqua;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <img class="ing" src="images-removebg-preview.png" alt="Logo">
+    <div class="list-decor">
+      <li>Home</li>
+      <li>Services</li>
+      <li>About Us</li>
+      <li>Contact Us</li>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container1">
+      <h1 >GLASSMORPHISM</h1>
+      <h3>Welcome to the Login Page</h3>
+      <p>Login is the gateway to secure access to online services, ensuring that only authorized users can interact with specific content. By entering your credentials, you authenticate your identity and gain access to personal or sensitive data.</p>
+      <br>
+      <p>Logging out is just as important for maintaining security. It prevents unauthorized access by ensuring that once you're done, your session ends securely. Whether you manually log out or let the session expire, it's a crucial step to safeguarding your information.</p>
+      
+      <br>
+      <button><a href="#">Learn More</a></button>
+      <br>
+      
+    </div>
+
+    <div class="container2">
+      <h1 style="color: aqua;">Login</h1>
+      <div class="logs">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button><a href="#">Login</a></button>
+      </div>
+      
+      <div class="caption">
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
